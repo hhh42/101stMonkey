@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Second Post &middot; </title>
+
+  
+  <link rel="stylesheet" href="http://localhost:1313/css/poole.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/hyde.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/poole-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/hyde-overrides.css">
+  <link rel="stylesheet" href="http://localhost:1313/css/hyde-x.css">
+  
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Put witty Blog Title here &middot; " />
+
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <link rel="author" href="http://plus.google.com/haroldhhersey@gmail.com">
+</head>
+<body>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <img src="http://www.gravatar.com/avatar/963da61f2309f941639485633af4c581?s=200" alt="gravatar">
+      <h1></h1>
+      <p class="lead">Ramblings of the 101st Monkey</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://localhost:1313/">Blog</a></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://github.com/hhh42">GitHub</a></li>
+      <li class="sidebar-nav-item"><a href="http://lnkd.in/bnvEP_g">LinkedIn</a></li>
+      
+      
+      
+    </ul>
+
+    <p>Copyright &copy; 2014 <a href="http://localhost:1313/license">License</a><br/>
+       Powered by <a href="http://hugo.spf13.com">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
+  </div>
+</div>
+
+<div class="content container">
+  <div class="post">
+    <h1>Second Post</h1>
+    <span class="post-date">Nov 20, 2014 &middot; 1 minute read</span>
+    
+
+<h3 id="toc_0">testing</h3>
+
+<h2 id="toc_1">tests 2</h2>
+
+<h1 id="toc_2">test 1</h1>
+
+<p>I like apples and banannas</p>
+
+<pre><code>This is a test of code insert
+
+</code></pre>
+
+<p>a Gist!</p>
+
+<script src="https://gist.github.com/hhh42/5e2a6a06db5d4eff1517.js"></script>
+
+<p>short gist ?
+{{% gist 5e2a6a06db5d4eff1517 %}}</p>
+
+<p>maybe some html?</p>
+
+<p>{{% highlight html %}}
+    <section id="main">
+      <div>
+       <h1 id="title">{{ .Title }}</h1>
+    {{ range .Data.Pages }}
+        {{ .Render &ldquo;summary&rdquo;}}
+    {{ end }}
+  </div>
+</section>
+{{%/highlight%}}</p>
+
+<p>Go?
+{{% highlight go %}} A bunch of code here {{%/highlight%}}</p>
+
+<p>This was supposed to be scala ?
+{{% highlight scala %}}
+class CSPResultConverter {
+  def convert(assignment: Assignment): Set[TileInstance] = {
+    //    val tileVariables: List[Variable] = for (foo &lt;- assignment.getVariables.iterator()) yield foo
+    (for (variable &lt;- assignment.getVariables) yield {
+      variable match {
+        case tv: TileVariable =&gt; new TileInstance(tv.tileSpot,
+          forceTile(assignment.getAssignment(tv)))
+        case _ =&gt; {
+          println(&ldquo;What&rsquo;s this case?&rdquo;)
+          TileInstance.noTile
+        }
+      }
+    }).toSet</p>
+
+<p>}
+}
+{{%/highlight%}}</p>
+
+<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
+
+  </div>
+  
+</div>
+
+
+
+
+
+
+
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
