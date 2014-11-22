@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Posts on Put witty Blog Title here </title>
+      <title>Posts on Ramblings of the 101st Monkey </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://hhh42.github.io/101stMonkey/post/index.xml/</link>
+    <link>http://localhost:1313/post/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Getting Started</title>
-      <link>http://hhh42.github.io/101stMonkey/post/blogging/</link>
+      <link>http://localhost:1313/post/blogging/</link>
       <pubDate>Thu, 20 Nov 2014 22:44:15 PST</pubDate>
       
-      <guid>http://hhh42.github.io/101stMonkey/post/blogging/</guid>
+      <guid>http://localhost:1313/post/blogging/</guid>
       <description>
 
 &lt;h3 id=&#34;toc_0&#34;&gt;So you want to blog?&lt;/h3&gt;
@@ -35,10 +35,10 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
     
     <item>
       <title>Second Post</title>
-      <link>http://hhh42.github.io/101stMonkey/post/second/</link>
+      <link>http://localhost:1313/post/second/</link>
       <pubDate>Thu, 20 Nov 2014 14:23:03 PST</pubDate>
       
-      <guid>http://hhh42.github.io/101stMonkey/post/second/</guid>
+      <guid>http://localhost:1313/post/second/</guid>
       <description>
 
 &lt;h3 id=&#34;toc_0&#34;&gt;testing&lt;/h3&gt;
@@ -102,10 +102,10 @@ class CSPResultConverter {
     
     <item>
       <title>First Blog Post</title>
-      <link>http://hhh42.github.io/101stMonkey/post/first/</link>
+      <link>http://localhost:1313/post/first/</link>
       <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
       
-      <guid>http://hhh42.github.io/101stMonkey/post/first/</guid>
+      <guid>http://localhost:1313/post/first/</guid>
       <description>&lt;p&gt;This is a test of some content.&lt;/p&gt;
 
 &lt;p&gt;foo&lt;/p&gt;
@@ -114,10 +114,10 @@ class CSPResultConverter {
     
     <item>
       <title></title>
-      <link>http://hhh42.github.io/101stMonkey/post/copy/</link>
+      <link>http://localhost:1313/post/copy/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://hhh42.github.io/101stMonkey/post/copy/</guid>
+      <guid>http://localhost:1313/post/copy/</guid>
       <description>&lt;p&gt;testing 3!&lt;/p&gt;
 
 &lt;p&gt;So you want to blog?  Well more like I need to do some writing.
