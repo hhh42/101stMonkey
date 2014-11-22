@@ -147,16 +147,6 @@ class CSPResultConverter {
     </item>
     
     <item>
-      <title>About me</title>
-      <link>http://blog.prohibitedgame.com/about/</link>
-      <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
-      
-      <guid>http://blog.prohibitedgame.com/about/</guid>
-      <description>&lt;p&gt;Test&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>First Blog Post</title>
       <link>http://blog.prohibitedgame.com/post/first/</link>
       <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
@@ -165,6 +155,16 @@ class CSPResultConverter {
       <description>&lt;p&gt;This is a test of some content.&lt;/p&gt;
 
 &lt;p&gt;foo&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://blog.prohibitedgame.com/about/</link>
+      <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/about/</guid>
+      <description>&lt;p&gt;Test&lt;/p&gt;
 </description>
     </item>
     
