@@ -7,7 +7,53 @@
     <language>en-us</language>
     
     
-    <updated>Thu, 20 Nov 2014 22:44:15 PST</updated>
+    <updated>Fri, 21 Nov 2014 22:31:54 PST</updated>
+    
+    <item>
+      <title>Automated Planning</title>
+      <link>http://hhh42.github.io/101stMonkey/post/pddl/</link>
+      <pubDate>Fri, 21 Nov 2014 22:31:54 PST</pubDate>
+      
+      <guid>http://hhh42.github.io/101stMonkey/post/pddl/</guid>
+      <description>&lt;p&gt;The attraction to a true declarative language&lt;/p&gt;
+
+&lt;p&gt;test of a code block&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func (a PipeAddr) Network() string
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>http://hhh42.github.io/101stMonkey/post/why/</link>
+      <pubDate>Fri, 21 Nov 2014 21:57:33 PST</pubDate>
+      
+      <guid>http://hhh42.github.io/101stMonkey/post/why/</guid>
+      <description>&lt;p&gt;At some point in many an engineers career they get lured into management.  It&amp;rsquo;s often seen as a good thing and there are many benefits to it and for the most part I don&amp;rsquo;t regret the path.  What I &lt;em&gt;do&lt;/em&gt; miss is the making of things. The actual stacking of the blocks. The satisfaction of seeing the nicely stack of freshly chopped wood.  It&amp;rsquo;s a well documented thing that building something with your hands is satisfying.  Coding, though a bit more abstract, does have a similar satisfaction.  Seeing something &lt;em&gt;go&lt;/em&gt; that you wrote has a similar feel.  Not as rewarding but again more than you would think are unit tests and the like.&lt;/p&gt;
+
+&lt;p&gt;Great &lt;a href=&#34;https://www.youtube.com/watch?v=u6XAPnuFjJc&#34;&gt;Video&lt;/a&gt; on what motivates us and the improvement of ones abilities and knowledge.  I absolutly felt that pull into the field of computers.  It was a very clean way to make things.
+When I first got pulled into managment I didn&amp;rsquo;t continue coding enough to scratch the itch and became unsettled by it.  I had a novel idea for a game engine to &amp;ldquo;fix&amp;rdquo; some of the micro managing nature of the early command and conquer style games that were just becoming popular in the late 90s.  So I went off to learn about graphics and automated planning and backend technologies.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sweet Dreams of Scala</title>
+      <link>http://hhh42.github.io/101stMonkey/post/scala/</link>
+      <pubDate>Fri, 21 Nov 2014 21:45:37 PST</pubDate>
+      
+      <guid>http://hhh42.github.io/101stMonkey/post/scala/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always had an interest in programing languages.  We didn&amp;rsquo;t call them DSLs then but still liked how it made us think about things.&lt;/p&gt;
+
+&lt;p&gt;A very wise programmer explained to me that laziness is an important virtue for a programmer.  Not in the sense of stuck on the couch but not doing things you shouldn&amp;rsquo;t. Automate taking out the proverbial trash.  Do less when that&amp;rsquo;s enough. Don&amp;rsquo;t over engineer.&lt;/p&gt;
+
+&lt;p&gt;Scala allows you to focus on the details and only on the details.  I had really resigned myself to Java without knowing.  I think I was in a longer honey moon off C++&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;is this how you do a block quote? yup!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting Started</title>
