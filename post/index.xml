@@ -3,7 +3,7 @@
   <channel>
       <title>Posts on Ramblings of the 101st Monkey </title>
       <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://blog.prohibitedgame.com/101stMonkey/post/index.xml/</link>
+    <link>http://blog.prohibitedgame.com/post/index.xml/</link>
     <language>en-us</language>
     
     
@@ -11,10 +11,10 @@
     
     <item>
       <title>Automated Planning</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/pddl/</link>
+      <link>http://blog.prohibitedgame.com/post/pddl/</link>
       <pubDate>Fri, 21 Nov 2014 22:31:54 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/pddl/</guid>
+      <guid>http://blog.prohibitedgame.com/post/pddl/</guid>
       <description>&lt;p&gt;The attraction to a true declarative language&lt;/p&gt;
 
 &lt;p&gt;test of a code block&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Motivation</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/why/</link>
+      <link>http://blog.prohibitedgame.com/post/why/</link>
       <pubDate>Fri, 21 Nov 2014 21:57:33 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/why/</guid>
+      <guid>http://blog.prohibitedgame.com/post/why/</guid>
       <description>&lt;p&gt;At some point in many an engineers career they get lured into management.  It&amp;rsquo;s often seen as a good thing and there are many benefits to it and for the most part I don&amp;rsquo;t regret the path.  What I &lt;em&gt;do&lt;/em&gt; miss is the making of things. The actual stacking of the blocks. The satisfaction of seeing the nicely stack of freshly chopped wood.  It&amp;rsquo;s a well documented thing that building something with your hands is satisfying.  Coding, though a bit more abstract, does have a similar satisfaction.  Seeing something &lt;em&gt;go&lt;/em&gt; that you wrote has a similar feel.  Not as rewarding but again more than you would think are unit tests and the like.&lt;/p&gt;
 
 &lt;p&gt;Great &lt;a href=&#34;https://www.youtube.com/watch?v=u6XAPnuFjJc&#34;&gt;Video&lt;/a&gt; on what motivates us and the improvement of ones abilities and knowledge.  I absolutly felt that pull into the field of computers.  It was a very clean way to make things.
@@ -39,10 +39,10 @@ When I first got pulled into managment I didn&amp;rsquo;t continue coding enough
     
     <item>
       <title>Sweet Dreams of Scala</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/scala/</link>
+      <link>http://blog.prohibitedgame.com/post/scala/</link>
       <pubDate>Fri, 21 Nov 2014 21:45:37 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/scala/</guid>
+      <guid>http://blog.prohibitedgame.com/post/scala/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve always had an interest in programing languages.  We didn&amp;rsquo;t call them DSLs then but still liked how it made us think about things.&lt;/p&gt;
 
 &lt;p&gt;A very wise programmer explained to me that laziness is an important virtue for a programmer.  Not in the sense of stuck on the couch but not doing things you shouldn&amp;rsquo;t. Automate taking out the proverbial trash.  Do less when that&amp;rsquo;s enough. Don&amp;rsquo;t over engineer.&lt;/p&gt;
@@ -57,10 +57,10 @@ When I first got pulled into managment I didn&amp;rsquo;t continue coding enough
     
     <item>
       <title>Getting Started</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/blogging/</link>
+      <link>http://blog.prohibitedgame.com/post/blogging/</link>
       <pubDate>Thu, 20 Nov 2014 22:44:15 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/blogging/</guid>
+      <guid>http://blog.prohibitedgame.com/post/blogging/</guid>
       <description>
 
 &lt;h3 id=&#34;toc_0&#34;&gt;So you want to blog?&lt;/h3&gt;
@@ -75,16 +75,16 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
 
 &lt;p&gt;Anyway, I should probably save bashing Ruby and other toy languages for a more in depth focused series of comments but for now I&amp;rsquo;d like to thank their gross inadequacies and the fine correlative capabilites of &lt;a href=&#34;http://www.staticgen.com/&#34;&gt;staticgen&lt;/a&gt; because I started from the top and went until I found a real language.  Ohh look &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; is a real language!  I think I&amp;rsquo;ll try &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and sure enough within a few short minutes everything was working and I was picking themes.&lt;/p&gt;
 
-&lt;p&gt;Something tells me Hugo will be a tad faster than a Ruby Hello world&amp;hellip;. so far I haven&amp;rsquo;t seen it go over 20ms.&lt;/p&gt;
+&lt;p&gt;Something tells me Hugo will be a tad faster than a Ruby Hello world&amp;hellip;. so far I haven&amp;rsquo;t seen it go over 25ms.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Second Post</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/second/</link>
+      <link>http://blog.prohibitedgame.com/post/second/</link>
       <pubDate>Thu, 20 Nov 2014 14:23:03 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/second/</guid>
+      <guid>http://blog.prohibitedgame.com/post/second/</guid>
       <description>
 
 &lt;h3 id=&#34;toc_0&#34;&gt;testing&lt;/h3&gt;
@@ -148,10 +148,10 @@ class CSPResultConverter {
     
     <item>
       <title>First Blog Post</title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/first/</link>
+      <link>http://blog.prohibitedgame.com/post/first/</link>
       <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/first/</guid>
+      <guid>http://blog.prohibitedgame.com/post/first/</guid>
       <description>&lt;p&gt;This is a test of some content.&lt;/p&gt;
 
 &lt;p&gt;foo&lt;/p&gt;
@@ -160,10 +160,10 @@ class CSPResultConverter {
     
     <item>
       <title></title>
-      <link>http://blog.prohibitedgame.com/101stMonkey/post/copy/</link>
+      <link>http://blog.prohibitedgame.com/post/copy/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/101stMonkey/post/copy/</guid>
+      <guid>http://blog.prohibitedgame.com/post/copy/</guid>
       <description>&lt;p&gt;testing 3!&lt;/p&gt;
 
 &lt;p&gt;So you want to blog?  Well more like I need to do some writing.
