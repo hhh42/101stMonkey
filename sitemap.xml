@@ -3,8 +3,23 @@
   
   <url>
     <loc>http://blog.prohibitedgame.com/</loc>
-    <lastmod>2014-11-21T22:31:54-08:00</lastmod>
+    <lastmod>2014-11-22T15:15:20-08:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.prohibitedgame.com/post/maas/</loc>
+    <lastmod>2014-11-22T15:15:20-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.prohibitedgame.com/post/juju/</loc>
+    <lastmod>2014-11-22T15:15:15-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.prohibitedgame.com/post/networking/</loc>
+    <lastmod>2014-11-22T15:15:05-08:00</lastmod>
   </url>
   
   <url>
@@ -33,12 +48,12 @@
   </url>
   
   <url>
-    <loc>http://blog.prohibitedgame.com/about/</loc>
+    <loc>http://blog.prohibitedgame.com/post/first/</loc>
     <lastmod>2014-11-20T13:22:46-08:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.prohibitedgame.com/post/first/</loc>
+    <loc>http://blog.prohibitedgame.com/about/</loc>
     <lastmod>2014-11-20T13:22:46-08:00</lastmod>
   </url>
   

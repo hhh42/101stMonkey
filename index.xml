@@ -7,7 +7,65 @@
     <language>en-us</language>
     
     
-    <updated>Fri, 21 Nov 2014 22:31:54 PST</updated>
+    <updated>Sat, 22 Nov 2014 15:15:20 PST</updated>
+    
+    <item>
+      <title>maas</title>
+      <link>http://blog.prohibitedgame.com/post/maas/</link>
+      <pubDate>Sat, 22 Nov 2014 15:15:20 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/maas/</guid>
+      <description>&lt;p&gt;##Initial Impressions of MAAS
+It seems pretty complete.  I&amp;rsquo;ve only focused on the mangement of virtual boxes current and that is obviously not its forte, though it seems rather suited to do that.&lt;/p&gt;
+
+&lt;p&gt;###Hardware
+I have some older hardware that I&amp;rsquo;ll try to PXE boot and wait on LAN.  Until I wake cold hardware I won&amp;rsquo;t feel like I&amp;rsquo;ve really done what it&amp;rsquo;s made for.&lt;/p&gt;
+
+&lt;p&gt;###Juju Integration
+I like the seemingly perfect integration with Juju, rather encouraging.  Though likely not where I&amp;rsquo;ll end up in the long run with my crazy hybrid environment.  I may have to give up on trying to spin up stuff locally and setup a Juju in manual mode for all the local stuff I will effectively leave on while maybe a separate reagion in Digital Ocean when any scale is needed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>juju</title>
+      <link>http://blog.prohibitedgame.com/post/juju/</link>
+      <pubDate>Sat, 22 Nov 2014 15:15:15 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/juju/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Juju&lt;/h2&gt;
+
+&lt;p&gt;This seems to be my solution for deployment and orchestration.  Their charm metaphor as about how I want to think about these components.  I really don&amp;rsquo;t want to work out any details about setting up logstash and geting the agents connected. Juju seems to give me the ability to config, monitor and manage the cloud.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Visual Interface&lt;/h3&gt;
+
+&lt;p&gt;It sure looks cool.  I can&amp;rsquo;t seem to find it to be reliable to actual build things with.  Luckily I don&amp;rsquo;t seem to care at all about it.  I quickly wrote two different totaly different could configs.  One based on OpenStack and one that&amp;rsquo;s just a tomcat cluster behind HA Proxy.  The GUI is still very useful for visualizing etc.&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;rsquo;
+put screen shot here
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>networking</title>
+      <link>http://blog.prohibitedgame.com/post/networking/</link>
+      <pubDate>Sat, 22 Nov 2014 15:15:05 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/networking/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Virtual Networking&lt;/h2&gt;
+
+&lt;p&gt;My basic problem is that I&amp;rsquo;m setting up a small private cloud using MAAS with mostly virtual machines attached.  I&amp;rsquo;d like to have multiple machines hosting multiple virtual networks of KVM machines.  All mananged with virt-manager.  I&amp;rsquo;m currently good at one machine I just have to figure out how to tunnel too or bridge .. or route.. or.. whatever network magic is missing.&lt;/p&gt;
+
+&lt;p&gt;I intend to write about my solution here.&lt;/p&gt;
+
+&lt;p&gt;Quick update.. I hate networking.
+A near solution I figured out is to have separate virtual networks running a few KVM based VMS on separate boxes.  Instead of running MAAS inside the internal network I run it with two network cards.  One real one wired into it&amp;rsquo;s own switch that some day will have some real hardware on it and a virtual network where the VMs live.   I then put a static route to each of the virtual networks (and physical) on the physical router that is the gateway for the MAAS controller and the rest of the host machines in the house.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Automated Planning</title>
@@ -15,12 +73,12 @@
       <pubDate>Fri, 21 Nov 2014 22:31:54 PST</pubDate>
       
       <guid>http://blog.prohibitedgame.com/post/pddl/</guid>
-      <description>&lt;p&gt;The attraction to a true declarative language&lt;/p&gt;
+      <description>&lt;p&gt;##The attraction to a true declarative language&lt;/p&gt;
 
-&lt;p&gt;test of a code block&lt;/p&gt;
+&lt;p&gt;I was shocked how quickly one could start using PDDL. Since there are barely any keywords to know in the langauge the result is you can code as soon as you get the mechanism.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;func (a PipeAddr) Network() string
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;##Finite State Machines
+Using Finiste State Machines to model the behavior of the objects in the world and then using itSimple to generate PDDL via its internal XML representation allows you to not write the actions explicitly.  The practicle result is you have to be extremely aware of guard clauses and the like in the FSM and as part of debugging your constantly checking the generated conditions in the info box within the itSimple interface.  Also I seem to be checking the PDDL generated output tabs in itSimple as well when you have malformed precondtion or the like.  I&amp;rsquo;ve been stumped by many a (and ()) precondition or effect which doesn&amp;rsquo;t fly in most planners.&lt;/p&gt;
 </description>
     </item>
     
@@ -34,6 +92,8 @@
 
 &lt;p&gt;Great &lt;a href=&#34;https://www.youtube.com/watch?v=u6XAPnuFjJc&#34;&gt;Video&lt;/a&gt; on what motivates us and the improvement of ones abilities and knowledge.  I absolutly felt that pull into the field of computers.  It was a very clean way to make things.
 When I first got pulled into managment I didn&amp;rsquo;t continue coding enough to scratch the itch and became unsettled by it.  I had a novel idea for a game engine to &amp;ldquo;fix&amp;rdquo; some of the micro managing nature of the early command and conquer style games that were just becoming popular in the late 90s.  So I went off to learn about graphics and automated planning and backend technologies.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve had several stack changes over the years playing with these ideas. I had settled on a Google App Engine based stack before I found Scala, which caused me to rethink several things thought libGDX remained constant.   LibGDX doesn&amp;rsquo;t seem to care to much (though the need for source for the GWT compile has by stymied for a but though there are some solutions in the works, I hope to not solve that problem and let others)&lt;/p&gt;
 </description>
     </item>
     
@@ -52,6 +112,12 @@ When I first got pulled into managment I didn&amp;rsquo;t continue coding enough
 &lt;blockquote&gt;
 &lt;p&gt;is this how you do a block quote? yup!&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;I still feel like a Java programmer writing Scala, though I occationally have an excellent function that reads like a real Scala dev.&lt;/p&gt;
+
+&lt;p&gt;&amp;rdquo;&amp;rsquo;
+insert a good gist here
+&amp;ldquo;&amp;rsquo;&lt;/p&gt;
 </description>
     </item>
     
@@ -76,6 +142,8 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
 &lt;p&gt;Anyway, I should probably save bashing Ruby and other toy languages for a more in depth focused series of comments but for now I&amp;rsquo;d like to thank their gross inadequacies and the fine correlative capabilites of &lt;a href=&#34;http://www.staticgen.com/&#34;&gt;staticgen&lt;/a&gt; because I started from the top and went until I found a real language.  Ohh look &lt;a href=&#34;https://golang.org/&#34;&gt;Go&lt;/a&gt; is a real language!  I think I&amp;rsquo;ll try &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; and sure enough within a few short minutes everything was working and I was picking themes.&lt;/p&gt;
 
 &lt;p&gt;Something tells me Hugo will be a tad faster than a Ruby Hello world&amp;hellip;. so far I haven&amp;rsquo;t seen it go over 25ms.&lt;/p&gt;
+
+&lt;p&gt;After a few more pages have been written.  I continue to be happy with Hugo and marvel at it&amp;rsquo;s speed. It doesn&amp;rsquo;t have  every bell and whistle as other system but my needs are simple and I have desired to fight those things.&lt;/p&gt;
 </description>
     </item>
     
@@ -93,7 +161,7 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
 
 &lt;h1 id=&#34;toc_2&#34;&gt;test 1&lt;/h1&gt;
 
-&lt;p&gt;I like apples and banannas&lt;/p&gt;
+&lt;p&gt;Ipsum text! I like apples and banannas&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;This is a test of code insert
 
@@ -102,57 +170,6 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
 &lt;p&gt;a Gist!&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/hhh42/5e2a6a06db5d4eff1517.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;short gist ?
-{{% gist 5e2a6a06db5d4eff1517 %}}&lt;/p&gt;
-
-&lt;p&gt;maybe some html?&lt;/p&gt;
-
-&lt;p&gt;{{% highlight html %}}
-    &lt;section id=&#34;main&#34;&gt;
-      &lt;div&gt;
-       &lt;h1 id=&#34;title&#34;&gt;{{ .Title }}&lt;/h1&gt;
-    {{ range .Data.Pages }}
-        {{ .Render &amp;ldquo;summary&amp;rdquo;}}
-    {{ end }}
-  &lt;/div&gt;
-&lt;/section&gt;
-{{%/highlight%}}&lt;/p&gt;
-
-&lt;p&gt;Go?
-{{% highlight go %}} A bunch of code here {{%/highlight%}}&lt;/p&gt;
-
-&lt;p&gt;This was supposed to be scala ?
-{{% highlight scala %}}
-class CSPResultConverter {
-  def convert(assignment: Assignment): Set[TileInstance] = {
-    //    val tileVariables: List[Variable] = for (foo &amp;lt;- assignment.getVariables.iterator()) yield foo
-    (for (variable &amp;lt;- assignment.getVariables) yield {
-      variable match {
-        case tv: TileVariable =&amp;gt; new TileInstance(tv.tileSpot,
-          forceTile(assignment.getAssignment(tv)))
-        case _ =&amp;gt; {
-          println(&amp;ldquo;What&amp;rsquo;s this case?&amp;rdquo;)
-          TileInstance.noTile
-        }
-      }
-    }).toSet&lt;/p&gt;
-
-&lt;p&gt;}
-}
-{{%/highlight%}}&lt;/p&gt;
-
-&lt;p&gt;{{ template &amp;ldquo;_internal/disqus.html&amp;rdquo; . }}&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>http://blog.prohibitedgame.com/about/</link>
-      <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
-      
-      <guid>http://blog.prohibitedgame.com/about/</guid>
-      <description>&lt;p&gt;Test&lt;/p&gt;
 </description>
     </item>
     
@@ -165,6 +182,16 @@ class CSPResultConverter {
       <description>&lt;p&gt;This is a test of some content.&lt;/p&gt;
 
 &lt;p&gt;foo&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>http://blog.prohibitedgame.com/about/</link>
+      <pubDate>Thu, 20 Nov 2014 13:22:46 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/about/</guid>
+      <description>&lt;p&gt;Test&lt;/p&gt;
 </description>
     </item>
     

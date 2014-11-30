@@ -71,7 +71,7 @@
 
 <h1 id="toc_2">test 1</h1>
 
-<p>I like apples and banannas</p>
+<p>Ipsum text! I like apples and banannas</p>
 
 <pre><code>This is a test of code insert
 
@@ -80,47 +80,6 @@
 <p>a Gist!</p>
 
 <script src="https://gist.github.com/hhh42/5e2a6a06db5d4eff1517.js"></script>
-
-<p>short gist ?
-{{% gist 5e2a6a06db5d4eff1517 %}}</p>
-
-<p>maybe some html?</p>
-
-<p>{{% highlight html %}}
-    <section id="main">
-      <div>
-       <h1 id="title">{{ .Title }}</h1>
-    {{ range .Data.Pages }}
-        {{ .Render &ldquo;summary&rdquo;}}
-    {{ end }}
-  </div>
-</section>
-{{%/highlight%}}</p>
-
-<p>Go?
-{{% highlight go %}} A bunch of code here {{%/highlight%}}</p>
-
-<p>This was supposed to be scala ?
-{{% highlight scala %}}
-class CSPResultConverter {
-  def convert(assignment: Assignment): Set[TileInstance] = {
-    //    val tileVariables: List[Variable] = for (foo &lt;- assignment.getVariables.iterator()) yield foo
-    (for (variable &lt;- assignment.getVariables) yield {
-      variable match {
-        case tv: TileVariable =&gt; new TileInstance(tv.tileSpot,
-          forceTile(assignment.getAssignment(tv)))
-        case _ =&gt; {
-          println(&ldquo;What&rsquo;s this case?&rdquo;)
-          TileInstance.noTile
-        }
-      }
-    }).toSet</p>
-
-<p>}
-}
-{{%/highlight%}}</p>
-
-<p>{{ template &ldquo;_internal/disqus.html&rdquo; . }}</p>
 
   </div>
   
