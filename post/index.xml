@@ -10,24 +10,29 @@
     <updated>Sat, 22 Nov 2014 15:15:20 PST</updated>
     
     <item>
-      <title>maas</title>
+      <title>Metal As a Service</title>
       <link>http://blog.prohibitedgame.com/post/maas/</link>
       <pubDate>Sat, 22 Nov 2014 15:15:20 PST</pubDate>
       
       <guid>http://blog.prohibitedgame.com/post/maas/</guid>
-      <description>&lt;p&gt;##Initial Impressions of MAAS
-It seems pretty complete.  I&amp;rsquo;ve only focused on the mangement of virtual boxes current and that is obviously not its forte, though it seems rather suited to do that.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;###Hardware
-I have some older hardware that I&amp;rsquo;ll try to PXE boot and wait on LAN.  Until I wake cold hardware I won&amp;rsquo;t feel like I&amp;rsquo;ve really done what it&amp;rsquo;s made for.&lt;/p&gt;
+&lt;h2 id=&#34;toc_0&#34;&gt;Initial Impressions of MAAS&lt;/h2&gt;
 
-&lt;p&gt;###Juju Integration
-I like the seemingly perfect integration with Juju, rather encouraging.  Though likely not where I&amp;rsquo;ll end up in the long run with my crazy hybrid environment.  I may have to give up on trying to spin up stuff locally and setup a Juju in manual mode for all the local stuff I will effectively leave on while maybe a separate reagion in Digital Ocean when any scale is needed.&lt;/p&gt;
+&lt;p&gt;It seems pretty complete.  I&amp;rsquo;ve only focused on the mangement of virtual boxes current and that is obviously not its forte, though it seems rather suited to do that.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_1&#34;&gt;Hardware&lt;/h3&gt;
+
+&lt;p&gt;I have some older hardware that I&amp;rsquo;ll try to PXE boot and wait on LAN.  Until I wake cold hardware I won&amp;rsquo;t feel like I&amp;rsquo;ve really done what it&amp;rsquo;s made for.&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Juju Integration&lt;/h3&gt;
+
+&lt;p&gt;I like the seemingly perfect integration with Juju, rather encouraging.  Though likely not where I&amp;rsquo;ll end up in the long run with my crazy hybrid environment.  I may have to give up on trying to spin up stuff locally and setup a Juju in manual mode for all the local stuff I will effectively leave on while maybe a separate reagion in Digital Ocean when any scale is needed.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>juju</title>
+      <title>JuJu</title>
       <link>http://blog.prohibitedgame.com/post/juju/</link>
       <pubDate>Sat, 22 Nov 2014 15:15:15 PST</pubDate>
       
@@ -73,12 +78,15 @@ A near solution I figured out is to have separate virtual networks running a few
       <pubDate>Fri, 21 Nov 2014 22:31:54 PST</pubDate>
       
       <guid>http://blog.prohibitedgame.com/post/pddl/</guid>
-      <description>&lt;p&gt;##The attraction to a true declarative language&lt;/p&gt;
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;The attraction to a true declarative language&lt;/h2&gt;
 
 &lt;p&gt;I was shocked how quickly one could start using PDDL. Since there are barely any keywords to know in the langauge the result is you can code as soon as you get the mechanism.&lt;/p&gt;
 
-&lt;p&gt;##Finite State Machines
-Using Finiste State Machines to model the behavior of the objects in the world and then using itSimple to generate PDDL via its internal XML representation allows you to not write the actions explicitly.  The practicle result is you have to be extremely aware of guard clauses and the like in the FSM and as part of debugging your constantly checking the generated conditions in the info box within the itSimple interface.  Also I seem to be checking the PDDL generated output tabs in itSimple as well when you have malformed precondtion or the like.  I&amp;rsquo;ve been stumped by many a (and ()) precondition or effect which doesn&amp;rsquo;t fly in most planners.&lt;/p&gt;
+&lt;h2 id=&#34;toc_1&#34;&gt;Finite State Machines&lt;/h2&gt;
+
+&lt;p&gt;Using Finiste State Machines to model the behavior of the objects in the world and then using itSimple to generate PDDL via its internal XML representation allows you to not write the actions explicitly.  The practicle result is you have to be extremely aware of guard clauses and the like in the FSM and as part of debugging your constantly checking the generated conditions in the info box within the itSimple interface.  Also I seem to be checking the PDDL generated output tabs in itSimple as well when you have malformed precondtion or the like.  I&amp;rsquo;ve been stumped by many a (and ()) precondition or effect which doesn&amp;rsquo;t fly in most planners.&lt;/p&gt;
 </description>
     </item>
     
