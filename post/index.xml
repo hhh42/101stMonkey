@@ -7,7 +7,63 @@
     <language>en-us</language>
     
     
-    <updated>Sat, 22 Nov 2014 15:15:20 PST</updated>
+    <updated>Mon, 01 Dec 2014 06:47:59 PST</updated>
+    
+    <item>
+      <title>Linux Sound</title>
+      <link>http://blog.prohibitedgame.com/post/sound/</link>
+      <pubDate>Mon, 01 Dec 2014 06:47:59 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/sound/</guid>
+      <description>&lt;p&gt;Linux handling of sound hardware/software has been nothing short of terrible.  I think it&amp;rsquo;s been a huge contributer to delaying desktop adoption of Linux and a huge personal annoyance.&lt;/p&gt;
+
+&lt;p&gt;As a non professional musican I want to do the basic use cases.  Do the basic 4 track exercises.  Record a few tracks until I like them.  Basic mixing. Basic effects. Setting up play along and practice tracks.  Nothing profound.&lt;/p&gt;
+
+&lt;p&gt;As an audio snob I want good sounding intruments.  I&amp;rsquo;m not going to tolerate anything but an excellent piano sound. A reverb that sounds like your in a toilet paper roll isn&amp;rsquo;t going to fly either.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>http://blog.prohibitedgame.com/post/admin/</link>
+      <pubDate>Mon, 01 Dec 2014 06:28:44 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/admin/</guid>
+      <description>
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Tools&lt;/h2&gt;
+
+&lt;p&gt;For many years I never bothered to learn anything about being an effective admin.  I rarely needed those skills and a would fumble my way through whatever the need was at the time.&lt;/p&gt;
+
+&lt;p&gt;Using a detachable terminal like screen or &lt;a href=&#34;http://byobu.co/&#34;&gt;Byobu&lt;/a&gt; is a nescessity when managing remote servers. &lt;a href=&#34;https://www.youtube.com/watch?v=NawuGmcvKus&#34;&gt;The Listen to Mozart while learning Byobo&lt;/a&gt; is a pleasant over view of what it can do if you haven&amp;rsquo;t tried.  For me this replaced many of my lame tricks and I&amp;rsquo;ve still know about half the keybinding I should.  If your still hacking away at a &amp;ldquo;classic&amp;rdquo; terminal, do youself a favor and upgrade.  I won&amp;rsquo;t tell you how long it took me to upgrade.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;What is going on?&lt;/h2&gt;
+
+&lt;h3 id=&#34;toc_2&#34;&gt;Processors&lt;/h3&gt;
+
+&lt;p&gt;How often have you sat at a prompt wondering what the computer is doing.  The above has some rudimentary monitoring but often you need more.  Top is a good start &lt;a href=&#34;http://hisham.hm/htop/&#34;&gt;htop&lt;/a&gt; is better. Not as profound an upgrade as byobu is but still work a bump&lt;/p&gt;
+
+&lt;h3 id=&#34;toc_3&#34;&gt;Networking&lt;/h3&gt;
+
+&lt;p&gt;As fun as vmstat 1 is you don&amp;rsquo;t get the actual picture, sure you know the lights are on but you have no idea what&amp;rsquo;s going on in the room.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_4&#34;&gt;Nethogs&lt;/h4&gt;
+
+&lt;p&gt;For a good sense of the WHO of network usage &lt;a href=&#34;http://nethogs.sourceforge.net/&#34;&gt;nethogs&lt;/a&gt; is a quick way to see.&lt;/p&gt;
+
+&lt;h4 id=&#34;toc_5&#34;&gt;iptraf&lt;/h4&gt;
+
+&lt;p&gt;For a quick look at the WHAT of network usage &lt;a href=&#34;http://iptraf.seul.org/&#34;&gt;iptraf&lt;/a&gt; does the trick.  Though not as big a beast as &lt;a href=&#34;https://www.wireshark.org/&#34;&gt;wireshare&lt;/a&gt; it seems to answer most of the questions I see to have.  Granted I&amp;rsquo;m no networking guy but for getting a sense if things are working etc. it seems to do the trick&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Key Exchange&lt;/h2&gt;
+
+&lt;p&gt;This is another thing I took way to long to mature at.  Yeah, I typed passwords longer than I should.  Do yourself a favor and setup keys&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;LDD is your friend&lt;/h2&gt;
+
+&lt;h2 id=&#34;toc_8&#34;&gt;apt-files&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>Metal As a Service</title>
