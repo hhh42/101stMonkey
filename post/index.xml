@@ -7,7 +7,49 @@
     <language>en-us</language>
     
     
-    <updated>Mon, 01 Dec 2014 06:47:59 PST</updated>
+    <updated>Thu, 11 Dec 2014 14:03:15 PST</updated>
+    
+    <item>
+      <title>crashplan</title>
+      <link>http://blog.prohibitedgame.com/post/crashplan/</link>
+      <pubDate>Thu, 11 Dec 2014 14:03:15 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/crashplan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>itSimple</title>
+      <link>http://blog.prohibitedgame.com/post/new%20file/</link>
+      <pubDate>Thu, 11 Dec 2014 14:03:15 PST</pubDate>
+      
+      <guid>http://blog.prohibitedgame.com/post/new%20file/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;itSimple&lt;/h1&gt;
+
+&lt;p&gt;itSimple is a very ambitious project to take the world of PDDL editors from basically simple text editing with nearly no error output other than failure or full solution.&lt;br /&gt;
+Having fought writing PDDL over the years with no tools it was a welcome find.  Though skeptical of it&amp;rsquo;s ability to satisfy the claims it made I&amp;rsquo;m beginning to be a believer.&lt;br /&gt;
+It DOES feel like the tool limits you with the expressiveness of PDDL, I&amp;rsquo;ve come to embrace the patterns it forces you to do. It&amp;rsquo;s certainly kept me out of trouble that I have historically gotten into.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Multiple approached&lt;/h2&gt;
+
+&lt;p&gt;itSimple allows you to express the same thing in many way that end up with effectively (or exactly) the same PDDL output.   The Finite State Machine metaphor the force you to work within is a good visual mapping to the model your working with.  The tool itself is rather buggy but I&amp;rsquo;ve learned to work around most of them.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Don&amp;rsquo;t edit the XML file&lt;/h2&gt;
+
+&lt;p&gt;Tempting as it may sound.  Editing the input file has yielded me some more capabilities but very quickly you break parts of the app that you&amp;rsquo;ll miss.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;OCML sucks&lt;/h2&gt;
+
+&lt;p&gt;Even when you manage to find the pdf file on the site and decode the inscrutable doc&amp;hellip; and work around the differences in the doc and the tool itself&amp;hellip; You end up wishing you could just write the PDDL that it generates and call it a day.
+My approach has been one of a minimalist, use the few patterns I know that work and pretend that most don&amp;rsquo;t exists.   I&amp;rsquo;m reserved myself to being &amp;ldquo;stuck&amp;rdquo; in PDDL 2.1 but I can&amp;rsquo;t seem to find a stable enough planner for any of the structures beyond that.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Static analysis beats soft constraints?&lt;/h2&gt;
+
+&lt;p&gt;It seems I won&amp;rsquo;t be getting soft contraints so I&amp;rsquo;m going to play games with various cost functions and maybe even statically evaluate the plan after the fact if I need too.  It sure seems like that I&amp;rsquo;ll have to do that for that contraint satisfaction system anyway.. Since I&amp;rsquo;m computing multiple solutions anyway for finding the unique solutions so it&amp;rsquo;s not much of a leap to evaluate it&amp;rsquo;s cost at that point and see if that can be used to guide it&amp;hellip; or allow the user to select preferences that manifest as soft contraints&amp;hellip; Anyway.. should probably move that to a CSP entry&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Linux Sound</title>
