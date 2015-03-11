@@ -370,25 +370,18 @@ Let&amp;rsquo;s just say my first experience with Ruby wasn&amp;rsquo;t a pleasa
     
     <item>
       <title></title>
-      <link>http://blog.prohibitedgame.com/post/neo%20file%203/</link>
+      <link>http://blog.prohibitedgame.com/post/new%20file%202/</link>
       <pubDate>Tue, 01 Jan 2008 00:00:00 UTC</pubDate>
       
-      <guid>http://blog.prohibitedgame.com/post/neo%20file%203/</guid>
+      <guid>http://blog.prohibitedgame.com/post/new%20file%202/</guid>
       <description>
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Neo4j&lt;/h1&gt;
+&lt;h1 id=&#34;toc_0&#34;&gt;Mohawk&lt;/h1&gt;
 
-&lt;p&gt;I&amp;rsquo;ve been back and forth on the database decision a few times but I&amp;rsquo;m starting off with Neo4j because there are a few things in my domain that absolutely scream a graph database.  Notably all my pathing and proximity issues.&lt;br /&gt;
-The thing that pushed me over the edge was the optimization pass that I know I&amp;rsquo;ll have to do with the reconciling of all the paths and finding existing &amp;ldquo;globally known&amp;rdquo; paths.   That basically offline batch mode would be perfect for a graph database.   Some very long queries that would influence long transactional changes.&lt;/p&gt;
-
-&lt;p&gt;The Spatial extentions allow an easy break down of &amp;ldquo;in or out&amp;rdquo; questions, nearness etc.  Apparently the spatial extentions use an RTree to make it all fast.&lt;br /&gt;
-I may do a simple quadtree to do the inital break downs of the area&amp;rsquo;s based on some complexity measure.&lt;/p&gt;
-
-&lt;p&gt;The things that make me hesitate to use Neo4j for the primary database is the desire to store the entire tile grid which would be a terrible idea as nodes and relationships.  Instead I&amp;rsquo;ll store things at the highest level I can get away with.  A node for a tree but not weeds or a stone etc.  Store the seed for the area and the constraint satisfier will take care of the rest.  Storying the map as a huge quad tree of smaller constraint satisfaction problems.  Could even solve the individual tree as it&amp;rsquo;s own problem if I had to but I suspect that the area size (assuming it changes subdivides based on some meaningful complexity measure) should be a small enough CSP so that it won&amp;rsquo;t be a memory hog or too big a search problem.&lt;/p&gt;
-
-&lt;p&gt;I still may yet encode a mini blob of json or something or an array &amp;ldquo;constraints&amp;rdquo; but I think I should be able to do that entirely by properties of the objects themselves  .  Open areas of grass may have to be an object that subdivides as something happens to it.  though what I&amp;rsquo;m reading about Neo4j 2.2 there shouldn&amp;rsquo;t be a problem with the scale I&amp;rsquo;m talking about. I suspect I&amp;rsquo;ll need to do some kind of &amp;ldquo;region&amp;rdquo; anyway based on current limitations of my generator but those might be easily overcome.&lt;/p&gt;
-
-&lt;p&gt;Storing the generated values as the .png&amp;rsquo;s they currently are isn&amp;rsquo;t a bad idea since they should be immutable though at some point some form of mutation may be needed but that could be reconciled over night and the changes are stored.&lt;/p&gt;
+&lt;p&gt;This may make me sound old, but I can&amp;rsquo;t help myself.  Everytime I see someone with a mohawk I make the immediate association with Mr. T and I pity the fool.
+I certainly note the difference between the punk style and the Mr. T style but I pretty much lump them together.&lt;br /&gt;
+I guess that raises the question, &amp;ldquo;Can an individual retire a hair style?&amp;rdquo;&lt;br /&gt;
+There are certainly a few examples.. Mr. T?  Zappa?  Hitler?&lt;/p&gt;
 </description>
     </item>
     
