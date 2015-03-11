@@ -54,7 +54,7 @@
       
     </ul>
 
-    <p>Copyright &copy; 2014 <a href="http://blog.prohibitedgame.com/license">License</a><br/>
+    <p>Copyright &copy; 2015 <a href="http://blog.prohibitedgame.com/license">License</a><br/>
        Powered by <a href="http://hugo.spf13.com">Hugo</a> and <a href="https://github.com/zyro/hyde-x">Hyde-X</a></p>
   </div>
 </div>
@@ -62,12 +62,45 @@
 <div class="content container">
   <div class="post">
     <h1>Linux Sound</h1>
-    <span class="post-date">Dec 1, 2014 &middot; 1 minute read</span>
-    <p>Linux handling of sound hardware/software has been nothing short of terrible.  I think it&rsquo;s been a huge contributer to delaying desktop adoption of Linux and a huge personal annoyance.</p>
+    <span class="post-date">Dec 1, 2014 &middot; 2 minute read</span>
+    
+
+<p>Linux handling of sound hardware/software has been nothing short of terrible.  I think it&rsquo;s been a huge contributer to delaying desktop adoption of Linux and a huge personal annoyance.</p>
 
 <p>As a non professional musican I want to do the basic use cases.  Do the basic 4 track exercises.  Record a few tracks until I like them.  Basic mixing. Basic effects. Setting up play along and practice tracks.  Nothing profound.</p>
 
 <p>As an audio snob I want good sounding intruments.  I&rsquo;m not going to tolerate anything but an excellent piano sound. A reverb that sounds like your in a toilet paper roll isn&rsquo;t going to fly either.</p>
+
+<p>Note app let me down</p>
+
+<p>Apparently I can&rsquo;t scroll like you think in that app.</p>
+
+<p>VST stack</p>
+
+<p>The easiest way I have found to get a decent sound stack working is to first add the kxstudio repositoroies.  At that point you can just</p>
+
+<p>&rdquo;&rsquo;
+apt-get install cadence dssi-vst low-latency-linux
+&ldquo;&rsquo;</p>
+
+<p>and I get pretty much what I need.
+Need to test out the kxstudio defaults.. That apparently changes some important settings.</p>
+
+<p>the kxstudio repositories seem to have vastly more recent things all working together than other distro&rsquo;s I&rsquo;ve changed.</p>
+
+<p>Once all the above installs and you reboot.  A bit of fiddling in the jack config and things seem to work out.   Cadence provides a good way to manage bridges etc if you need that.   I&rsquo;ve only used the ALSA one a few times.</p>
+
+<h2 id="toc_0">Catia</h2>
+
+<p>This is certinly my goto app for begining to diagnose.  I certibnly prefer that to the grid interface of Ardour and since it&rsquo;s all jack it works out no matter where you change it.</p>
+
+<h2 id="toc_1">VSTHost</h2>
+
+<p>seems to work better for me than festige did.  It could be just underlying versions of things but immediatly it seemed to respond better, load faster and I found a plugin that the images worked in while they didn&rsquo;t using festige.  I haven&rsquo;t tried to save or load state yet so I&rsquo;ll have to reserve judgement</p>
+
+<h2 id="toc_2">Session Management</h2>
+
+<p>I&rsquo;ve seen many solutions out there and some might work for some people but I haven&rsquo;t found something that really works for me. My mostly lame mostly works solution is to load all the VSTs I might need up front then load Ardour which wires up most everything provided it touches Ardour.. which may or may not be a good practice but it&rsquo;s something doesn&rsquo;t limit me much in my workflow so I generally do that.</p>
 
   </div>
   <div id="disqus_thread"></div>

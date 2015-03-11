@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>First Blog Post &middot; </title>
+  <title> &middot; </title>
 
   
   <link rel="stylesheet" href="http://blog.prohibitedgame.com/css/poole.css">
@@ -61,11 +61,23 @@
 
 <div class="content container">
   <div class="post">
-    <h1>First Blog Post</h1>
-    <span class="post-date">Nov 20, 2014 &middot; 1 minute read</span>
-    <p>This is a test of some content.</p>
+    <h1></h1>
+    <span class="post-date">Jan 1, 2008 &middot; 2 minute read</span>
+    
 
-<p>foo</p>
+<h1 id="toc_0">Neo4j</h1>
+
+<p>I&rsquo;ve been back and forth on the database decision a few times but I&rsquo;m starting off with Neo4j because there are a few things in my domain that absolutely scream a graph database.  Notably all my pathing and proximity issues.<br />
+The thing that pushed me over the edge was the optimization pass that I know I&rsquo;ll have to do with the reconciling of all the paths and finding existing &ldquo;globally known&rdquo; paths.   That basically offline batch mode would be perfect for a graph database.   Some very long queries that would influence long transactional changes.</p>
+
+<p>The Spatial extentions allow an easy break down of &ldquo;in or out&rdquo; questions, nearness etc.  Apparently the spatial extentions use an RTree to make it all fast.<br />
+I may do a simple quadtree to do the inital break downs of the area&rsquo;s based on some complexity measure.</p>
+
+<p>The things that make me hesitate to use Neo4j for the primary database is the desire to store the entire tile grid which would be a terrible idea as nodes and relationships.  Instead I&rsquo;ll store things at the highest level I can get away with.  A node for a tree but not weeds or a stone etc.  Store the seed for the area and the constraint satisfier will take care of the rest.  Storying the map as a huge quad tree of smaller constraint satisfaction problems.  Could even solve the individual tree as it&rsquo;s own problem if I had to but I suspect that the area size (assuming it changes subdivides based on some meaningful complexity measure) should be a small enough CSP so that it won&rsquo;t be a memory hog or too big a search problem.</p>
+
+<p>I still may yet encode a mini blob of json or something or an array &ldquo;constraints&rdquo; but I think I should be able to do that entirely by properties of the objects themselves  .  Open areas of grass may have to be an object that subdivides as something happens to it.  though what I&rsquo;m reading about Neo4j 2.2 there shouldn&rsquo;t be a problem with the scale I&rsquo;m talking about. I suspect I&rsquo;ll need to do some kind of &ldquo;region&rdquo; anyway based on current limitations of my generator but those might be easily overcome.</p>
+
+<p>Storing the generated values as the .png&rsquo;s they currently are isn&rsquo;t a bad idea since they should be immutable though at some point some form of mutation may be needed but that could be reconciled over night and the changes are stored.</p>
 
   </div>
   <div id="disqus_thread"></div>
